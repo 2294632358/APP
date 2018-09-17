@@ -1,0 +1,302 @@
+/*
+* @Author: lenovo
+* @Date:   2018-09-14 08:38:18
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-09-15 11:10:47
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+.top{
+	width: 100%;
+	height: 3.25rem;
+	background: #3ee7a4;
+	padding-right: 0.24rem;
+}
+.top .one{
+	width: 0.5rem;
+	height: 0.5rem;
+	position: fixed;
+	top: 0.24rem;
+	left: 0.24rem;
+}
+.top .two{
+	width: 0.60rem;
+	height: 0.50rem;
+	position: fixed;
+	top: 0.24rem;
+	right: 0.74rem;
+}
+.top .three{
+	width: 0.5rem;
+	height: 0.5rem;
+	position: fixed;
+	top: 0.24rem;
+	/* left: 0.24rem; */
+	right: 0.24rem;
+}
+.top .left{
+	width: 3.1rem;
+	height: 100%;
+	padding: 0.325rem 0.3rem;
+	float: left;
+}
+.top .left .pic{
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 2.5rem;
+	background-image: url('../img/12.png');
+	background-position: center center;
+	background-size: 2.5rem 2.5rem;
+} 
+.top .right{
+	width: 3.90rem;
+	height: 100%;
+	float: left;
+}
+.top .right h2{
+	font-size: 0.4rem;
+	margin-top: 0.325rem;
+}
+.top .right h5{
+	font-size: 0.25rem;
+	margin-top: 0.2rem;
+}
+.top .right .cu{
+	width:0.4rem;
+	height: 0.4rem;
+	font-size: 0.25rem;
+	color: #fff;
+	background: #fea203;
+	text-align: center;
+	line-height: 0.4rem;
+	float: left;
+}
+.top .right .hd{
+	width: 100%;
+	height: 0.4rem;
+	margin-top: 0.2rem;
+}
+.top .right p{
+	font-size: 0.25rem;
+	line-height: 0.4rem;
+	float: left;
+}
+.center{
+	width: 100%;
+	overflow: hidden;
+	padding-right:0.24rem;
+}
+.center .list{
+	width: 2.4rem;
+	float: left;
+}
+.center .list ul li{
+	width: 100%;
+	height: 1.11rem;
+	background: #f4f4f4;
+	font-size: 0.3rem;
+	color: black;
+	text-align: center;
+	line-height: 1.11rem;
+}
+.center .list ul li:nth-child(5){
+	background: #3ee7a4;
+	color: #fff;
+}
+.center .content{
+	width: 4.6rem;
+	float: right;
+	padding-bottom: 0.05rem;
+}
+.center .content ul li{
+	width: 100%;
+	height: 1.79rem;
+	margin-top: 0.4rem;
+	padding-bottom: 0.1rem;
+	box-shadow: 0 0.02rem 0.05rem 0.02rem rgba(62, 231, 164, 0.5);
+}
+.center .content ul li .left{
+	width: 1rem;
+	height: 1.6rem;
+	margin: 0.12rem;
+	float: left;
+}
+.center .content ul li .left img{
+	width: 100%;
+	height: 100%;
+}
+.center .content ul li .right{
+	float: left;
+}
+.center .content ul li .right h2{
+	font-size: 0.3rem;
+	margin-top: 0.12rem;
+}
+.center .content ul li .right h5{
+	font-size: 0.2rem;
+	font-weight: 400;
+	margin-top: 0.08rem;
+	margin-left: 0.3rem;
+}
+.center .content ul li .right h4{
+	font-size: 0.4rem;
+	margin-left: 1.5rem;
+	font-weight: 400;
+	color: #fea203;
+	/*  */
+	float: left;
+}
+.center .content ul li .right p{
+	margin-left: 0.05rem;
+	font-size: 0.33rem;
+	margin-top: 0.15rem;
+	float: left;
+	color: #fea203;
+}
+.center .content ul li .right .add{
+	width: 0.4rem;
+	height: 0.4rem;
+	background:#3ee7a4;
+	border-radius: 0.2rem;
+	margin-top: 0.15rem;
+    margin-left: 2.8rem;
+    font-size: 0.4rem;
+    color: #fff;
+    line-height: 0.4rem;
+    text-align: center;
+}
+footer{
+	width: 100%;
+	height: 1.38rem;
+	background-color: #fff;
+	position: relative;
+	position: fixed;
+	bottom: 0;
+	left: 0;	
+}
+footer .man{
+	width: 100%;
+	height: 0.4rem;
+	background-color: #fffad8;
+	color: #8d8a76;
+	font-size: 0.18rem;
+	text-align: center;
+	line-height: 0.4rem;
+}
+footer img{
+	width: 0.84rem;
+	height: 0.84rem;
+	position: absolute;
+	left: 0.58rem;
+	top: 0.08rem;
+}
+footer .kong{
+	width: 2.5rem;
+	height: 0.5rem;
+	/* background-color: red; */
+	color: #fec605;
+	font-size: 0.20rem;
+	text-align: center;
+	line-height: 0.5rem;
+	margin-left: 1.7rem;
+}
+footer .jie{
+	width: 2.34rem;
+	height: 1rem;
+	background-color: #49e1a2;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 1rem;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+footer 	a{
+	color: #dfdfdf;
+}
+.shade{
+	width: 7.5rem;
+	height: 12.34rem;
+	background-color: rgba(255, 255, 255, 0.4);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.affirm{
+	width: 5.88rem;
+	height: 5.82rem;
+	background-color: #35de98;
+	border-radius: 0.2rem;
+	/* position: relative; */
+	position: fixed;
+	left: 0.84rem;
+	bottom: 3.26rem;
+	/* position: relative; */
+}
+.affirm .pay{
+	width: 100%;
+	height: 3.3rem;
+}
+.affirm .shop{
+	margin-left: 0.16rem;
+	font-size: 0.38rem;
+	color: white;
+}
+.affirm .food{
+	margin-left: 0.16rem;
+	font-size: 0.26rem;
+	color: #333;
+	margin-top: 0.1rem;
+}
+.affirm .cut1{
+	width: 0.38rem;
+	height: 0.38rem;
+	/* margin-left: 0.16em; */
+	position: absolute;
+	left: 0.16rem;
+	bottom: 0.86rem;
+}
+.affirm .add1{
+	width: 0.38rem;
+	height: 0.38rem;
+	position: absolute;
+	left: 1.16rem;
+	bottom: 0.86rem;
+}
+.affirm .num{
+	font-size: 0.32rem;
+	color: #f99115;
+	position: absolute;
+	left: 0.76rem;
+	bottom: 0.86rem;
+}
+.affirm .total{
+	font-size: 0.3rem;
+	color: #f99115;
+	margin-left: 0.16rem;
+	margin-top: 1rem;
+	float: left;
+}
+.affirm .box{
+	width: 1.84rem;
+	height: 0.48rem;
+	border-radius: 0.24rem;
+	background-color: #fff;
+	font-size: 0.3rem;
+	color: #35de98;
+	text-align: center;
+	line-height: 0.48rem;
+	float: right;
+	margin-right: 0.16rem;
+	margin-top: 0.6rem;
+}

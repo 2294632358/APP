@@ -1,0 +1,285 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-08 11:14:00
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-09-15 13:09:40
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 1rem;
+	background: #0ecf98;
+}
+header .pos{
+	width: 1.12rem;
+	height: 100%;
+	/* background-color: #0ecf98; */
+	float: left;
+	font-size: 0.30rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1rem;
+}
+header input{
+	float: left;
+	width:5.10rem; 
+	height:0.36rem;
+	background-color: #fff;
+	background-image: url('../img/sousuo.png');
+	background-repeat: no-repeat;
+	background-size: 0.28rem 0.28rem;
+	/* 背景图片位置 */
+	background-position: 0.10rem center;
+	border-radius: 0.3rem;
+	border: none;
+	margin: 0.32rem 0 0 0.10rem;
+	padding-left: 0.57rem;
+	font-size: 0.24rem;
+	/* 外面框的线 */
+	/* outline: none; */
+}
+/* 改变提示性文字的样式 */
+input::-webkit-input-placeholder{
+	color: #e1e1e1;
+	font-size: 0.24rem;
+}
+header .pic{
+	width: 0.44rem;
+	height: 0.44rem;
+	background-color: #fff;
+	background-image: url('../img/ddym1.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: right;
+	border-radius: 0.22rem;
+	margin: 0.28rem 0.24rem 0 0;
+}
+.banner{
+	width: 100%;
+	height:3.98rem;
+	position: absolute;
+	/* background-color: red; */
+	/* overflow: hidden;
+	background-repeat: no-repeat;
+	background-image: url('../img/sy.png');
+	background-size: 7.5rem 3.98rem;
+	background-position: center center; */
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+nav{
+	width: 100%;
+	height: 3.94rem;
+	background-color: #ffffff;
+	padding: 0 0.24rem;
+}
+nav main{
+	/* width: 7.04rem; */
+	height: 100%;
+	border-bottom: 0.01rem solid #ffffff;
+	background-color: #ffffff;
+
+}
+nav main ul{
+	height: 3.94rem;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+nav main ul li{
+	width: 25%;
+	height: 1.46rem;
+	background-color: #ffffff;
+	border: 0.01rem solid #ffffff;
+	flex-direction: column;
+	/* justify-content: center;
+	align-content: space-around; */
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+nav main ul li img{
+	width: 1.07rem;
+	height: 1.07rem;
+}
+nav main ul li h5{
+	font-size: 0.24rem;
+}
+nav main ul li span{
+	font-size: 0.26rem;
+	color: #000;
+}
+
+.list .title{
+	width: 100%;
+	/* height: 0.7rem; */
+	margin-bottom: 0.3rem;
+}
+.list .title img{
+	width: 100%;
+/* 	height: 0.8rem; */
+}
+.list .top{
+	padding: 0 0.24rem;
+	width: 100%;
+	/* height: 3.02rem; */
+	/* padding-bottom: 0.001rem; */
+}
+.list .top .nr img{
+	width: 100%;
+	height: 2.22rem;
+}
+.list .bottom{
+	padding: 0 0.24rem;
+}
+.list .bottom .sec ul{
+	width: 100%;
+	padding-bottom: 0.3rem;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.list .bottom .sec ul li{
+	display: block;
+	width: 1.2rem;
+	height: 0.5rem;
+	border: 0.01rem solid #3ee7a4;
+	border-radius: 0.15rem;
+	font-size: 0.16rem;
+	text-align: center;
+	line-height: 0.5rem;
+}
+.list{
+	width: 100%;
+	background-color:white;
+	padding: 0 0.24rem;
+	box-shadow: 0px 3px 6px #88fdcb;
+}
+.list ul li{
+	width: 100%;
+	height: 2.54rem;
+	border-bottom: 0.01rem solid #999;
+	box-shadow: 0px 3px 6px #88fdcb;
+}
+.list ul li a{
+	color: #000;
+}
+.list ul li .picture{
+	width: 2.14rem;
+	height: 100%;
+	background-color: white;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	box-shadow: 0px 3px 6px #88fdcb;
+}
+.list ul li .content{
+	width: 4.83rem;
+	height: 100%;
+	background-color: white;
+	float: left;
+	padding-top: 0.47rem;
+	font-size: 0.24rem;
+	box-shadow: 0px 3px 6px #88fdcb;
+}
+.list ul li .picture img{
+	width: 1.55rem;
+	height: 2.39rem;
+}
+.list ul li .content h6{
+	font-size: 0.24rem;
+}
+.list ul li .content .des{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.list ul li .content .shou{
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+}
+.list ul li .content .shou .pic{
+	width: 0.27rem;
+	height: 0.27rem;
+	background-color: orange;
+	color: #fff;
+	text-align: center;
+	line-height: 0.27rem;
+}
+.list ul li .content .song{
+	width: 100%;
+	display: 
+}
+.kongbai {
+	width: 100%;
+	/* height: 0.3rem; */
+	background-color: white;
+}
+footer{
+	width: 7.5rem;
+	height: 1.1rem;
+	background-color: #ffffff;
+	padding: 0 0.24rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+}
+footer main{
+	/* width: 7.04rem; */
+	height: 100%;
+	border-bottom: 0.01rem solid #ffffff;
+	background-color: #ffffff;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+footer main ul{
+	height: 1.2rem;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+footer main ul li{
+	width: 25%;
+	height: 0.89rem;
+	margin-top: 0.21rem;
+	background-color: #ffffff;
+	border: 0.01rem solid #ffffff;
+	flex-direction: column;
+	/* justify-content: center;
+	align-content: space-around; */
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+footer main ul li img{
+	width: 0.36rem;
+	height: 0.36rem;
+	margin-bottom: 0.05rem;
+	margin-top: 0.00009rem;
+}
+footer main ul li span{
+	font-size: 0.20rem;
+	color: #000;
+}
+footer a{
+	color: #000;
+}
